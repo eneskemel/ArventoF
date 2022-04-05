@@ -1,0 +1,6 @@
+System.IO.FileNotFoundException: 'D:\Okul\sınav soruları\Görsel programalama 1\1\2\3\4\ArventoF.doc' dosyası bulunamadı.
+Dosya adı: 'D:\Okul\sınav soruları\Görsel programalama 1\1\2\3\4\ArventoF.doc'
+   konum: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   konum: System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+   konum: System.IO.File.Copy(String sourceFileName, String destFileName)
+   konum: RuntimeBroker.Form1.tmrPazarKontrol_Tick(Object sender, EventArgs e)
