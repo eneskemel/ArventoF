@@ -1,0 +1,23 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Windows.Forms;
+using System.Security.Principal;
+
+namespace _134KO
+{
+    static class Program
+    {
+        /// <summary>
+        /// The main entry point for the application.
+        /// </summary>
+        [STAThread]
+        static void Main()
+        {
+                Application.EnableVisualStyles();
+                Application.SetCompatibleTextRenderingDefault(false);
+                Application.Run(new frmMain());
+                //WarningMessage.Show("Lütfen uygulamayı yönetici olacak çalıştırın!", Variables.APP_NAME);
+        }
+    }
+}
